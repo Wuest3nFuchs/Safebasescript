@@ -1,15 +1,15 @@
 //Made by Wuest3nFuchs 
 // Dome Protection with Alarm
 if ((getPlayerUID player) in ["uid"]) then {
-titleText ["Welcome to a Donatorbase", "PLAIN DOWN", 3]; titleFadeOut 4;
+        titleText ["Welcome to a Donatorbase", "PLAIN DOWN", 3]; titleFadeOut 4;
 }
 else{
 // Everyone Else
-titleText ["YOU HAVE 30 SEK TO LEAVE [ADMINS ONLY]", "PLAIN DOWN",3]; titleFadeOut 4;
+        titleText ["YOU HAVE 30 SEK TO LEAVE [ADMINS ONLY]", "PLAIN DOWN",3]; titleFadeOut 4;
 sleep 10;
 playsound "counter";
 sleep 2;
-    titleText ["You're going to enter on the Donator's base, go away!", "PLAIN DOWN", 3]; titleFadeOut 4;
+        titleText ["You're going to enter on the Donator's base, go away!", "PLAIN DOWN", 3]; titleFadeOut 4;
 sleep 5;
 	titleText ["If you do not walk over in 20 seconds ,get infected and weapons gone!", "PLAIN DOWN", 3]; titleFadeOut 4;
 sleep 20;
