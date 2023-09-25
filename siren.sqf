@@ -2,14 +2,14 @@
 waitUntil {!isNull player};
 playSound "siren";
 sleep 1;
-    titleText ["Radioactive Zone ! Achtung Strahlung!", "PLAIN DOWN", 3]; titleFadeOut 4;
+    titleText ["Radioactive Zone ! Radioaktive Zone! Радиоактивная зона!", "PLAIN DOWN", 3]; titleFadeOut 4;
 sleep 5;
 playSound "siren";
 sleep 5;
-    titleText ["Cherno[byl] Zone", "PLAIN DOWN", 3]; titleFadeOut 4;
+    titleText ["Radioactive Zone ! Radioaktive Zone! Радиоактивная зона!", "PLAIN DOWN", 3]; titleFadeOut 4;
 sleep 5;
 playSound "siren";
-    titleText ["chernoTest", "PLAIN DOWN", 3];
+    titleText ["Silent_Hill_siren", "PLAIN DOWN", 3];
 sleep 10;
 r_player_inpain = true;
 sleep 30;
