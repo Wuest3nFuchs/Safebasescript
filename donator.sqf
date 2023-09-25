@@ -1,6 +1,6 @@
 //Made by Wuest3nFuchs 
 // Dome Protection with Alarm
-if ((getPlayerUID player) in ["uid"]) then {
+if ((getPlayerUID player) in ["place_uid_in_here"]) then {
         titleText ["Welcome to a Donatorbase", "PLAIN DOWN", 3]; titleFadeOut 4;
 }
 else{
